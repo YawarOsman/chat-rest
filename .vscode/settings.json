@@ -1,7 +1,7 @@
 {
   "rest-client.environmentVariables": {
     "$shared": {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzI0YzM1Njk4OTE2NGJjZTdlYmVjMmEiLCJpYXQiOjE3MzA0NjUwMjl9.6lOGalrOh9opi_Iyu3ggfkr6RM3ecyjsGPi_qROf61o",
+      "token": "<your-jwt-token-here>" // the token you get from the login endpoint
     },
     "development": {
       "baseUrl": "http://localhost:3000/api/v1"
