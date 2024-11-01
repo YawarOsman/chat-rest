@@ -1,0 +1,12 @@
+
+### Create new user
+POST {{baseUrl}}/login
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "username": "user2",
+    "password": "user##aaaaaA"
+}
+
+

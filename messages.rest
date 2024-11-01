@@ -1,0 +1,30 @@
+
+
+### Get messages (with pagination)
+GET {{baseUrl}}/messages?page=1&limit=20
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "roomCode": "abc123"
+}
+
+### Create message
+POST {{baseUrl}}/messages
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "roomCode": "abc123",
+    "content": "Hello, everyone!",
+    "username": "johndoe"
+}
+
+### Delete message
+DELETE {{baseUrl}}/messages
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "messageId": "65f7a1234b5cd6789e012345"
+}

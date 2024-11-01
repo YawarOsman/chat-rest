@@ -1,0 +1,41 @@
+
+### Get rooms (with pagination)
+GET {{baseUrl}}/rooms?page=1&limit=10
+Authorization: Bearer {{token}}
+
+### Create new room
+POST {{baseUrl}}/rooms/new
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    ### room name
+    "description": "General Discussion Room" 
+}
+
+### Join room
+POST {{baseUrl}}/rooms/join
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "roomCode": "61605M"
+}
+
+### Leave room
+POST {{baseUrl}}/rooms/leave
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "roomCode": "abc123"
+}
+
+### Delete room
+DELETE {{baseUrl}}/rooms/delete
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "roomCode": "abc123"
+}
