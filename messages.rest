@@ -6,7 +6,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "roomCode": "abc123"
+    "roomCode": ""
 }
 
 ### Create message
@@ -15,9 +15,9 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "roomCode": "abc123",
+    "roomCode": "",
     "content": "Hello, everyone!",
-    "username": "johndoe"
+    "username": ""
 }
 
 ### Delete message
@@ -26,5 +26,5 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "messageId": "65f7a1234b5cd6789e012345"
+    "messageId": ""
 }

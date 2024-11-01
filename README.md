@@ -17,5 +17,7 @@
    - After logging in, copy your JWT token
    - Open `.vscode/settings.json`
    - Replace `<your-jwt-token-here>` with your actual JWT token
+   - Replace `<host-url-in-the-assignment-description>` with the host url in the assignment description
+
 
 

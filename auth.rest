@@ -5,8 +5,8 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-    "username": "user2",
-    "password": "user##aaaaaA"
+    "username": "",
+    "password": ""
 }
 
 

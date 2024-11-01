@@ -19,7 +19,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "roomCode": "61605M"
+    "roomCode": ""
 }
 
 ### Leave room
@@ -28,7 +28,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "roomCode": "abc123"
+    "roomCode": ""
 }
 
 ### Delete room
@@ -37,5 +37,5 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "roomCode": "abc123"
+    "roomCode": ""
 }
